@@ -1,3 +1,12 @@
+---
+layout: page
+title: Are Movies Sexist ?
+subtitle: How much are movies subdued to gender stereotypes?
+output: html_document
+cover-img: /assets/header.png
+use-site-title: true
+---
+
 "If [Marilyn Monroe] still fascinates us so much, it is because her story echoes the diktat that continues to mark out women's lives in a world controlled by the male gaze."
 
 It is by this powerful observation that the documentary "Becoming Marilyn", released in 2021 by Arte Cinema, is introduced. This tells us two things: that women characters have failed to be more than projections of men's expectations, and that the cinema in itself can be consider as a representation of our society and its diktats.
