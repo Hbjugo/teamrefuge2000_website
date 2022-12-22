@@ -19,7 +19,7 @@ With this project, we would like to tackle the subject of gender representation 
 
 As a next analysis, we wanted to determine how the gender parity is distributed among different countries, and how this rate changed over time. First, we saw how it is currently distributed all over the world, and plotted it on a heatmap.
 
-![image](data/world_heatmap_2022.png)
+![image](assets/world_heatmap_2022.png)
 
 As we can see, the USA 
 
