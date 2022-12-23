@@ -15,7 +15,7 @@ With this project, we decided to work on another part of our culture which appea
 
 This powerful observation signes the introduction of the documentary “Becoming Marilyn”, released in 2021 by Arte Cinema. And it taught us two things: that women characters have failed to be more than projections of men’s expectations, and that the cinema in itself can be consider as a representation of our society and its diktats.
 
-With this project, we would like to tackle the subject of gender representation in movies across time. Strong believers that women are more than gentle creatures and men are not only super strong, we want to investigate if the movies industry followed and still follows these stereotypes, and how does it varies between countries and movies genres.
+With this project, we would like to tackle the subject of gender representation in movies across time. Strong believers that women are more than gentle creatures and men are not only super strong, we want to investigate if the movies industry has displayed a satisfying gender representation, and how does it varies between countries and movies genres.
 
 ### **What is the gender parity across movie genres?**
 
@@ -56,9 +56,9 @@ The result appears clearly: if the gender parity does not impact the box office 
 
 Despite this, we decided not to give up and to conduct a linear regression with multiple factors. Yes it appeared that gender parity influence the mean office revenue of a film. But is it the only factor? Are there more influential factors? The most influential factors of the linear regression and their p-values are displayed in the table below. 
 
-Therefore, after isolating the different factors, one can see that gender parity is the third most influential factor, after the number of actors and the year the movie was released. With a p-value very inferior to α = 0.05 and a negative coefficient of -0.4253, we can definitely conclude that gender parity negatively influence the box office revenue of movies.
+Therefore, after isolating the different factors, one can see that gender parity is the third most influential factor, after the number of actors and the year the movie was released. With a p-value very inferior to α = 0.05 and a negative coefficient of -0.4253 (influence coefficient is an absolute value between 0 and 1) we can definitely conclude that gender parity negatively influence the box office revenue of movies.
 
-### D. Is there a variation of the main attributes -agent verbs, patient verbs and attributes- given to each gender across time?
+### Is there a variation of the main attributes -agent verbs, patient verbs and attributes- given to each gender across time?
 
 What we mainly searched for in this section, is the type of action each gender is performing, and in perticular if a certain gender acts more than the other, or if it is more acted upon. To do so, we calculated the ratio of the actions done _on_ the subject over the actions done _by_ the subject. 
 
@@ -80,7 +80,7 @@ Finally, we wanted to study a bit the most frequently used actions. In perticula
 
 We wanted to know if these actions ended up being used more often on male/female over the years or not. In this plots, the "word importance" is defined as the number of times each action occurs in average in each plot. What we see is that this importance doesn't really change for "Love" or for "Kill". For "Marry", it decreases for both genders. Even though it doesn't tell us much for the difference over genders, it could go to show us the loss of importance of marriage in our society, as this tradionnal structure loses its power as the years go (but that definitely is a stretch, and would require a whole different analysis for us. We just thought it was funny to see the fact that the action "Marry" became less prominent over the year even though the action "Love" didn't change much).
 
-### E. Do the mean age of the actors, male and female, evolves over the years? (with the cliché in mind that +40-year-old actresses are "outdated")
+### Do the mean age of the actors, male and female, evolves over the years?
 
 We wanted to see what the mean age for actors is over the years, for males and females. When plotting this directly, we got those results : 
 
@@ -93,3 +93,21 @@ We then asked ourselves if this trend of the mean ages going up was a real trend
 ![image](assets/mean_life_percentage_actors.png)
 
 This changed things a bit : now, before 2000, the relative age of actors was going down instead of up, be it for men or for women. But after 2000, it started going up again, for both genders, going once again in the same direction as before. Nonetheless, the conclusion is still the same : the actress are constantly way younger than men, be it before 2000 or after. This once again goes in the stereotype that women should be young and beautiful to succeed on the big screen, and that the older they get, the more outdated they are. 
+
+### To conclude
+
+Let’s back to our initial question: does the movie industry a satisfying gender representation? Well, regarding the results of our study, we can say that:
+
+- No movie genre reaches the bar of 0.5 for gender parity. The mean gender parity among movie genre is 0.33, and women are mostly displayed in movies created for a mainstream audience and the ones that include a romantic plot. To top things up, movies with a lot of violence and weapons are the ones with the lowest gender parity values. In a glance, movie genre is significantly impacting gender ratio. However, gender parity values has evolved positively for most movie genres across the years.
+- No country with more than 20 movies in our dataset reaches this bar of 0.5 for gender parity. Moreover, the country of a movie does not seem to have a influence on this value.
+- Gender parity is the third most influential factor on the box revenue of movies, and this influence is negative.
+- Women tends to be more often the objects of action than men, even if they act more than they are acted on.
+- Women actresses are constantly younger than men across the years.
+
+Therefore the main conclusion of this study is: we still have a lot to do in terms of gender representation in movies, both in terms of movie genres and regarding the countries these movies are produced. Feminists are not going to be unemployed in the upcoming years! 
+
+However, we can mitigate our approach if we consider the fact that these study only take into account movies that are on Wikipedia, which may be not a good representation of the entire movie library of the last century. 
+
+### Our study in four words
+
+gif

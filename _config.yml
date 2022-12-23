@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Are Movies Sexist ? 
+title: How sexist are movies ? 
 
 # Your name to show in the footer
 author: Augustin Henry, Maxime Rufer, Albane Knoche & Emilien Ordonneau
@@ -186,6 +186,9 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+      
+social-network-links:
+  github: epfl-ada/ada-2022-project-teamrefuge2000
 
 social-network-links:
   github: epfl-ada/ada-2022-project-teamrefuge2000
