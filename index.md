@@ -60,19 +60,19 @@ Therefore, after isolating the different factors, one can see that gender parity
 
 ### D. Is there a variation of the main attributes -agent verbs, patient verbs and attributes- given to each gender across time?
 
-What we mainly searched for in this section, is the type of action each gender is performing, and in perticular if a certain gender acts more than the other, or if it is more acted upon. To do so, we calculated the ratio of the actions done _by_ the subject over the actions done _on_ the subject. 
+What we mainly searched for in this section, is the type of action each gender is performing, and in perticular if a certain gender acts more than the other, or if it is more acted upon. To do so, we calculated the ratio of the actions done _on_ the subject over the actions done _by_ the subject. 
 
 ![image](assets/ratio_on_by.png)
 
 On one hand, the female characters act more than they are acted on, as their ratio has been constantly lower than 0.5 since the 1920's, but on the other hand, relatively speaking, once again, women tend to be more often the objects of actions than men, as this ratio is constantly greater for women than for men. 
 
-We then studied the total number of actions done by men and by women, and plotted this ratio. 
+We then studied the ratio of actions involving men over actions involving women. 
 
 ![image](assets/ratio_actions_men_women.png)
 
 This ratio is constanly well over 1, which is not too surprising, as the gender ratio showed us that overall there are far more male characters than female ones, so it is expected to see them do more actions than women. 
 
-Finally, we wanted to study a bit the most frequently used actions. In perticular, we studied the actions "Marry", "Love" and "Kill", which seemed pretty interessant for us, to see if they are more performed *on men* or *on women* over the years. 
+Finally, we wanted to study a bit the most frequently used actions. In perticular, we studied the actions "Marry", "Love" and "Kill", to see if they are more performed *on men* or *on women* over the years. 
 
 ![image](assets/action_marry.png)
 ![image](assets/action_love.png)
