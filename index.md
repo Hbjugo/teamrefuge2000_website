@@ -30,7 +30,7 @@ The first main result of this study is that sadly, there is no movie genre that 
 We can also conclude that movie genre is significantly impacting gender ratio, since the average ratio is out of confident intervals for many movies genres.
 
 To bring some good news, the evolution of gender parity across movie genres shown that for most of them, this evolution is positive. The winner of this race is by far the *Japanese movies* genre, with an increase of approximatively 15%. Its evolution is displayed below, and one can see the good overall improvement, even if it’s not a linear one. Among the ten highest ranked genres, two of them (*Romantic Comedy* and *Romantic Drama*) show a statically significant improvement, and among the ten lowest ranked, two of them also show a positive evolution (*Action* and *Action/Adventure*). Therefore, the conclusion of this evolution is that the best ones often do better over time, and the others also try to do better in general, which is full of hope for the future!
-### W****hat is the evolution of gender parity in films among countries over time?****
+### W**hat is the evolution of gender parity in films among countries over time?**
 
 After considering movie genres, the next thing we wanted to tackle was the evolution of this gender parity among countries. Again, we looked at this value with 95% interval, here among the countries that had more than 20 occurrences. We also considered the evolution of this ratio before and after 2000. Only red arrows show evolution statistically significant under α = 0.05. 
 
@@ -46,8 +46,17 @@ Among the 24 countries displayed in these graphs, only three of them show a sign
 
 Therefore, we are a bit disappointed by the conclusions of these analyses since most countries do not show a significant evolution. Feminists and societies still have a lot to do in each of them …
 
+### **Is there a variation in the box office revenue depending on the gender parity?**
 
-### C. Is there a variation in the box office revenue depending on the gender parity? Has it change over the years?
+Ok, let’s consider the real stuffs now: what about the money? Does the gender parity impact the revenue of a movie in the box office? To answer this question, we decided to plot the mean office revenue in function of the gender parity.
+
+*graph*
+
+The result appears clearly: if the gender parity does not impact the box office revenue of a movie when its value is under 0.5, once it passes this value, the revenue drops drastically, with almost a four fold (from approximatively 160 million of dollars before to almost 40 million after a gender parity 0.5). Damn, that’s sad news. 
+
+Despite this, we decided not to give up and to conduct a linear regression with multiple factors. Yes it appeared that gender parity influence the mean office revenue of a film. But is it the only factor? Are there more influential factors? The most influential factors of the linear regression and their p-values are displayed in the table below. 
+
+Therefore, after isolating the different factors, one can see that gender parity is the third most influential factor, after the number of actors and the year the movie was released. With a p-value very inferior to α = 0.05 and a negative coefficient of -0.4253, we can definitely conclude that gender parity negatively influence the box office revenue of movies.
 
 ### D. Is there a variation of the main attributes -agent verbs, patient verbs and attributes- given to each gender across time?
 
