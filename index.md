@@ -56,6 +56,13 @@ The result appears clearly: if the gender parity does not impact the box office 
 
 Despite this, we decided not to give up and to conduct a linear regression with multiple factors. Yes it appeared that gender parity influence the mean office revenue of a film. But is it the only factor? Are there more influential factors? The most influential factors of the linear regression and their p-values are displayed in the table below. 
 
+| influential factors | p-values |
+| --- | --- |
+| Number of actors | too small to be measured |
+| Movie release year | 5.63 e-231 |
+| Gender parity | 3.13 e-18 |
+| Gay Themed movie genre | 2.47 e-14 |
+
 Therefore, after isolating the different factors, one can see that **gender parity is the third most influential factor**, after the number of actors and the year the movie was released. With a p-value very inferior to α = 0.05 and a negative coefficient of -0.4253 (influence coefficient is an absolute value between 0 and 1) we can definitely conclude that gender parity negatively influence the box office revenue of movies.
 
 ### Is there a variation of the main attributes -agent verbs, patient verbs and attributes- given to each gender across time?
