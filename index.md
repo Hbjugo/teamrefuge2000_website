@@ -23,7 +23,7 @@ We decided to start our investigation with an increasingly used metric these day
 
 Displayed below, the gender parity by movie genres with 95% confidence interval calculated for each genre that appears more than a 100 times in our dataset, and the evolution of this ratio before and after 2000. Only red arrows show evolution statistically significant under α = 0.05. 
 
-*graph*
+![image](assets/gender_parity_genres.png)
 
 The first main result of this study is that sadly, there is no movie genre that has a gender parity over 50%, even within the 95% confidence interval. Secondly, among the ten highest ranked genres, five of them are a type of *comedy*, and three of them contain the world *romance* or *romantic*. Women are therefore more displayed in movies created for a mainstream audience, and are more represented in movies that include a romantic plot (which does not seem too surprising, since most of the relationships displayed in movies are heterosexual). On the other hand, the five lowest ranked genres include *War*, *Gangster*, *Western*, which are known to display a high level of violence and the use of weapons. 
 
@@ -34,7 +34,7 @@ To bring some good news, the evolution of gender parity across movie genres show
 
 After considering movie genres, the next thing we wanted to tackle was the evolution of this gender parity among countries. Again, we looked at this value with 95% interval, here among the countries that had more than 20 occurrences. We also considered the evolution of this ratio before and after 2000. Only red arrows show evolution statistically significant under α = 0.05. 
 
-*graph*
+![image](assets/genter_parity_countries.png)
 
 Little glimpse of patriotism here for the French members of the team: France comes out first, followed by Canada. Are countries containing French speakers less sexists than the rest? The answer could be yes considering the gender ratio in their movies. 
 
@@ -46,8 +46,17 @@ Among the 24 countries displayed in these graphs, only three of them show a sign
 
 Therefore, we are a bit disappointed by the conclusions of these analyses since most countries do not show a significant evolution. Feminists and societies still have a lot to do in each of them …
 
+### **Is there a variation in the box office revenue depending on the gender parity?**
 
-### C. Is there a variation in the box office revenue depending on the gender parity? Has it changed over the years?
+Ok, let’s consider the real stuffs now: what about the money? Does the gender parity impact the revenue of a movie in the box office? To answer this question, we decided to plot the mean office revenue in function of the gender parity.
+
+![image](assets/mean_revenue_gender_parity.png)
+
+The result appears clearly: if the gender parity does not impact the box office revenue of a movie when its value is under 0.5, once it passes this value, the revenue drops drastically, with almost a four fold (from approximatively 160 million of dollars before to almost 40 million after a gender parity 0.5). Damn, that’s sad news. 
+
+Despite this, we decided not to give up and to conduct a linear regression with multiple factors. Yes it appeared that gender parity influence the mean office revenue of a film. But is it the only factor? Are there more influential factors? The most influential factors of the linear regression and their p-values are displayed in the table below. 
+
+Therefore, after isolating the different factors, one can see that gender parity is the third most influential factor, after the number of actors and the year the movie was released. With a p-value very inferior to α = 0.05 and a negative coefficient of -0.4253, we can definitely conclude that gender parity negatively influence the box office revenue of movies.
 
 ### D. Is there a variation of the main attributes -agent verbs, patient verbs and attributes- given to each gender across time?
 
@@ -69,7 +78,7 @@ Finally, we wanted to study a bit the most frequently used actions. In perticula
 ![image](assets/action_love.png)
 ![image](assets/action_kill.png)
 
-We wanted to know if these actions ended up being used more often on male/female over the years or not. In this plots, the "word importance" is defined as the number of times each action occurs in average in each plot. What we see is that this importance doesn't really change for "Love" or for "Kill". For "Marry", it decreases for both genres. Even though it doesn't tell us much for the difference over genders, it could go to show us the loss of importance of marriage in our society, as this tradionnal structure loses its power as the years go (but that definitely is a stretch, and would require a whole different analysis for us. We just thought it was funny to see the fact that the action "Marry" became less prominent over the year even though the action "Love" didn't change much).
+We wanted to know if these actions ended up being used more often on male/female over the years or not. In this plots, the "word importance" is defined as the number of times each action occurs in average in each plot. What we see is that this importance doesn't really change for "Love" or for "Kill". For "Marry", it decreases for both genders. Even though it doesn't tell us much for the difference over genders, it could go to show us the loss of importance of marriage in our society, as this tradionnal structure loses its power as the years go (but that definitely is a stretch, and would require a whole different analysis for us. We just thought it was funny to see the fact that the action "Marry" became less prominent over the year even though the action "Love" didn't change much).
 
 ### E. Do the mean age of the actors, male and female, evolves over the years? (with the cliché in mind that +40-year-old actresses are "outdated")
 
@@ -79,8 +88,8 @@ We wanted to see what the mean age for actors is over the years, for males and f
 
 Clearly, the average male actor is older than the average female actor. Overall, the gap between the age of male actors and the age of female actors stayed the same over the years, with the female actors being constantly between 5 and 10 years younger than their male counterpart on average. This seems to go in the direction of the stereotype of older women not having their place as old actresses. The mean age of male actors crossed the 40 year old bar after the 2000, whereas the mean age of actresses is barely above 35 year old, and only ponctually in time. A second thing we can see with this graph is how the average age goes up over the years, for both male and female actors. This could be seen as a generally good thing, as it depicts a larger picture of our society, and not just young people. 
 
-We then asked ourselves if this trend of the mean ages going up was a real trend, or if it wasn't just because life expectancy went up during the studied period of time. Thus, we plotted the mean "life percentage" of actors by genre, aka the ratio age over life expectency for each genre. 
+We then asked ourselves if this trend of the mean ages going up was a real trend, or if it wasn't just because life expectancy went up during the studied period of time. Thus, we plotted the mean "life percentage" of actors by gender, aka the ratio age over life expectency for each gender. 
 
-[image](assets/mean_life_percentage_actors.png)
+![image](assets/mean_life_percentage_actors.png)
 
-This changed things a bit : now, before 2000, the relative age of actors was going down instead of up, be it for men or for women. But after 2000, it started going up again, for both genres, going once again in the same direction as before. Nonetheless, the conclusion is still the same : the actress are constantly way younger than men, be it before 2000 or after. This once again goes in the stereotype that women should be young and beautiful to succeed on the big screen, and that the older they get, the more outdated they are. 
+This changed things a bit : now, before 2000, the relative age of actors was going down instead of up, be it for men or for women. But after 2000, it started going up again, for both genders, going once again in the same direction as before. Nonetheless, the conclusion is still the same : the actress are constantly way younger than men, be it before 2000 or after. This once again goes in the stereotype that women should be young and beautiful to succeed on the big screen, and that the older they get, the more outdated they are. 
