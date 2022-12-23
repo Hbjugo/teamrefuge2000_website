@@ -110,4 +110,4 @@ However, we can mitigate our approach if we consider the fact that these study o
 
 ### Our study in four words
 
-gif
+![us right now lol](assets/disappointed_but_not_surprised.gif)
