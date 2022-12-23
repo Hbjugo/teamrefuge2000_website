@@ -1,7 +1,7 @@
 ---
 layout: page
-title: How sexist are movies?
-subtitle: Gender representation: the missing character of our favorite movies?
+title: "How sexist are movies?"
+subtitle: "Gender representation: the missing character of our favorite movies?"
 output: html_document
 cover-img: /assets/background.jpg
 use-site-title: true
